@@ -23,9 +23,6 @@ echo 'src-git small https://github.com/kenzok8/small-package' >>feeds.conf.defau
 rm -rf package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
-# UnblockNeteaseMusic
-git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic package/lean/luci-app-unblockneteasemusic
-
 # vssr
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
