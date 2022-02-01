@@ -2,4 +2,4 @@
 
 Theme: Argon
 
-PACKAGE: HelloWorld, Smartdns, UnblockNeteaseMusic, turboacc
+PACKAGE: HelloWorld, Smartdns, AccessControl, turboacc
