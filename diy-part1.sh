@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # small
-echo 'src-git small https://github.com/kenzok8/small-package' >>feeds.conf.default
-
+#echo 'src-git small https://github.com/kenzok8/small-package' >>feeds.conf.default
+echo 'src-git chujian https://github.com/ChuJian2/Packages' >>feeds.conf.default
 # ShadowsocksR Plus
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 
@@ -21,8 +21,8 @@ echo 'src-git small https://github.com/kenzok8/small-package' >>feeds.conf.defau
 
 # argon
 rm -rf package/lean/luci-theme-argon
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 # vssr
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
+#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
+#git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr

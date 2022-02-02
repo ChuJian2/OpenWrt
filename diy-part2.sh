@@ -3,9 +3,6 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.0.1/g' package/base-files/files/bin/config_generate
 
-rm -rf package/small/luci-app-gpsysupgrade
-git clone https://github.com/ChuJian2/luci-app-gpsysupgrade package/small/luci-app-gpsysupgrade
-
 # 取消bootstrap默认主题
 sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
 
