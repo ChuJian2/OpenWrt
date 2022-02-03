@@ -127,6 +127,7 @@ jobs:
 
     - name: Organize files to server
       run:
+        cd ${{ env.FIRMWARE }}
         cp openwrt-ramips-mt7621-${{ env.DEVICE_NAME }}-squashfs-sysupgrade.bin ${{ env.FILE_DATE }}-openwrt-ramips-mt7621-${{ env.DEVICE_NAME }}-squashfs-sysupgrade.bin
         aliyunpan-cli --refresh-token ${{ secrets.REFRESH_TOKEN }} upload ${{ env.FILE_DATE }}-openwrt-ramips-mt7621-${{ env.DEVICE_NAME }}-squashfs-sysupgrade.bin root/alist/OpenWrt/K2P
         echo "${{ env.FILE_DATE }}" > version.txt
