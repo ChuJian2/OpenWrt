@@ -1,4 +1,4 @@
-CRLF## OpenWrt for Phicomm K2P 32M
+## OpenWrt for Phicomm K2P 32M
 
 Theme: Argon
 
